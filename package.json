@@ -7,6 +7,10 @@
     "dist",
     "src"
   ],
+  "repository": {
+    "url": "https://github.com/josemendozar108/jm-product-card",
+    "type": "git"
+  },
   "engines": {
     "node": ">=10"
   },
@@ -65,5 +69,11 @@
   },
   "dependencies": {
     "postcss": "^8.5.1"
-  }
+  },
+  "keywords": [
+    "product",
+    "card",
+    "jose",
+    "mendoza"
+  ]
 }
