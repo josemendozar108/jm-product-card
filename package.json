@@ -40,14 +40,14 @@
   },
   "name": "jamr-product-card",
   "author": "Jose Mendoza",
-  "module": "dist/jm-product-card.esm.js",
+  "module": "dist/jamr-product-card.esm.js",
   "size-limit": [
     {
-      "path": "dist/jm-product-card.cjs.production.min.js",
+      "path": "dist/jamr-product-card.cjs.production.min.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/jm-product-card.esm.js",
+      "path": "dist/jamr-product-card.esm.js",
       "limit": "10 KB"
     }
   ],

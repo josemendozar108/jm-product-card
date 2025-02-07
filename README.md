@@ -1,4 +1,4 @@
-# JM-Product-Card
+# JAMR-Product-Card
 
 Este es un paquete de pruebas de despliegues en NPM
 
@@ -7,7 +7,7 @@ Este es un paquete de pruebas de despliegues en NPM
 
 ## Ejemplo
 ```
-import {ProductCard, ProductImage, ProdutTitle, ProductButtons } from 'jm-product-card'
+import {ProductCard, ProductImage, ProdutTitle, ProductButtons } from 'jamr-product-card'
 ```
 ```
 <ProductCard
