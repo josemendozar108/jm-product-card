@@ -38,7 +38,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "jm-product-card",
+  "name": "jamr-product-card",
   "author": "Jose Mendoza",
   "module": "dist/jm-product-card.esm.js",
   "size-limit": [
