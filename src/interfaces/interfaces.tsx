@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Props  as ProductCardProps } from '../components/ProductCard';
 import { Props as ProductTitleProps } from '../components/ProductTitle';
 import { Props as ProductImageProps} from '../components/ProductImage';
@@ -20,10 +20,10 @@ export interface ProductContextProps {
 }
 
 export interface ProductCardHOCProps {
-    ({ children, product}: ProductCardProps): React.JSX.Element, 
-    Title:  (Props: ProductTitleProps) => React.JSX.Element,
-    Image: (Props: ProductImageProps) => React.JSX.Element, 
-    Buttons: (Props: ProductButtonsProps) => React.JSX.Element, 
+    ({ children, product}: ProductCardProps): JSX.Element, 
+    Title:  (Props: ProductTitleProps) => JSX.Element,
+    Image: (Props: ProductImageProps) => JSX.Element, 
+    Buttons: (Props: ProductButtonsProps) => JSX.Element
 }
 export interface onChangeArgs {
     product: Product; 
